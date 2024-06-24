@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+</head>
+<body>
+
+    <nav class="nav">
+        <div class="container">
+            <a href="" class="nav__logo">
+                <img src="image/logo.png" alt="" class="nav__logo-image">
+            </a>
+            <div class="burger" id="burger-menu">
+                <div class="line"></div>
+                <div class="line"></div>
+                <div class="line"></div>
+            </div>
+            <ul class="nav__list">
+                <li class="nav__item">
+                    <a href="#use" class="nav__link">Как работает</a>
+                </li>
+                <li class="nav__item">
+                    <a href="#question" class="nav__link">Возможности</a>
+                </li>
+                <li class="nav__item">
+                    <a href="#images" class="nav__link">Скриншоты</a>
+                </li>
+                <li class="nav__item">
+                    <a href="#plan" class="nav__link">Тарифы</a>
+                </li>
+            </ul>
+            <a href="#!" onclick="openModal()" class="nav__joinIn">Подключиться</a>
+        </div>
+    </nav>
+
+    <header class="header">
+        <div class="container">
+            <div class="header__desc">
+                <h1 class="header__title">Мобильное приложение для службы доставки готовой еды, продуктов или любых других товаров</h1>
+                <p class="header__txt">Без затрат на разработку и с запуском за 10 дней.</p>
+                <button onclick="openModal()" class="header__link">Подключиться</button>
+            </div>
+            <div class="header__down-image">
+                <!-- <img src="image/header-down.JPG" alt="" class="header__down-image2"> -->
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section class="use" id="use">
+            <div class="container">
+                <h3 class="use__title">Как работает сервис MSDel?</h3>
+                <p class="use__txt">4 простых шага.</p>
+                <div class="use__card">
+                    <div class="use__card-desc">
+                        <h3 class="use__card-title">Простой интерфейс для быстрого поиска блюд и заказа.</h3>
+                        <p class="use__card-txt">Не тратим время. Все уже готово. Делаем редизайн под ваш фирменный стиль. <br><br> Можно добавить лого, поменять цвет основного фона, цвета кнопок, шрифтов, пунктов меню и других элементов интерфейса.</p>
+                    </div>
+                    <img src="image/card-1.png" alt="" class="use__card-image">
+                </div>
+                <div class="use__card">
+                    <div class="use__card-desc">
+                        <h3 class="use__card-title">Разнообразие блюд: от пиццы и бургеров до свежих суши и салатов.</h3>
+                        <p class="use__card-txt">Меню или каталог товаров. Адреса точек продаж, зоны доставки и другая справочная информация. Все это настраивается в личном кабинете. Информация может быть импортирована из системы автоматизации бизнеса или простой Excel таблицы.</p>
+                    </div>
+                    <img src="image/card-2.jpg" alt="" class="use__card-image">
+                </div>
+                <div class="use__card">
+                    <div class="use__card-desc">
+                        <h3 class="use__card-title">Возможность отслеживать статус заказа в реальном времени и получать уведомления о его доставке</h3>
+                        <p class="use__card-txt">Мы предлагаем возможность клиентам отслеживать статус своего заказа в реальном времени через наше индивидуальное приложение. Они могут получать уведомления о каждом этапе доставки, что обеспечивает удобство и прозрачность в процессе заказа и доставки.</p>
+                    </div>
+                    <img src="image/card-3.jpg" alt="" class="use__card-image">
+                </div>
+                <div class="use__card">
+                    <div class="use__card-desc">
+                        <h3 class="use__card-title">Личный кабинет клиента, личный кабинет администратора, личный кабинет курьера – у каждого будет свой.</h3>
+                        <p class="use__card-txt">У нас предусмотрены отдельные личные кабинеты для клиентов, администраторов и курьеров. Каждый кабинет настроен для выполнения специфических задач и обеспечивает персонализированный опыт в соответствии с их ролями и функциями.</p>
+                    </div>
+                    <img src="image/card-4.jpg" alt="" class="use__card-image">
+                </div>
+            </div>
+        </section>
+        <section class="question" id="question">
+            <div class="container">
+                <h3 class="question__title">Основные возможности сервиса MSDel</h3>
+                <p class="question__txt">Узнайте подробнее, что умеет приложение и какую пользу несет клиентам. И это еще не все!</p>
+                <div class="question__card">
+                    <div class="question__card-title">
+                        Вопрос здесь?
+                    <button class="toggle__button">
+                        <div class="toggle__button-span">+</div>
+                    </button>
+                    </div>
+                    <div class="question__card-answer">
+                        Ответ на вопрос появляется здесь. Этот текст можно скрыть и раскрыть.
+                    </div>
+                </div>
+                <div class="question__card">
+                    <div class="question__card-title">
+                        Вопрос здесь?
+                    <button class="toggle__button">
+                        <div class="toggle__button-span">+</div>
+                    </button>
+                    </div>
+                    <div class="question__card-answer">
+                        Ответ на вопрос появляется здесь. Этот текст можно скрыть и раскрыть.
+                    </div>
+                </div>
+                <div class="question__card">
+                    <div class="question__card-title">
+                        Вопрос здесь?
+                    <button class="toggle__button">
+                        <div class="toggle__button-span">+</div>
+                    </button>
+                    </div>
+                    <div class="question__card-answer">
+                        Ответ на вопрос появляется здесь. Этот текст можно скрыть и раскрыть.
+                    </div>
+                </div>
+                <div class="question__card">
+                    <div class="question__card-title">
+                        Вопрос здесь?
+                    <button class="toggle__button">
+                        <div class="toggle__button-span">+</div>
+                    </button>
+                    </div>
+                    <div class="question__card-answer">
+                        Ответ на вопрос появляется здесь. Этот текст можно скрыть и раскрыть.
+                    </div>
+                </div>
+                <div class="question__card">
+                    <div class="question__card-title">
+                        Вопрос здесь?
+                    <button class="toggle__button">
+                        <div class="toggle__button-span">+</div>
+                    </button>
+                    </div>
+                    <div class="question__card-answer">
+                        Ответ на вопрос появляется здесь. Этот текст можно скрыть и раскрыть.
+                    </div>
+                </div>
+                <div class="question__card">
+                    <div class="question__card-title">
+                        Вопрос здесь?
+                    <button class="toggle__button">
+                        <div class="toggle__button-span">+</div>
+                    </button>
+                    </div>
+                    <div class="question__card-answer">
+                        Ответ на вопрос появляется здесь. Этот текст можно скрыть и раскрыть.
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="phone" id="phone">
+            <div class="container">
+                <h3 class="phone__title">Преимущества готового сервиса MSDel</h3>
+                <p class="phone__txt">Быстро запускается и с минимальным риском.</p>
+                <div class="phone__desc">
+                    <div class="phones__desc1">
+                        <div class="phone__subtitles">
+                            <h4 class="phones__subtitles-title">Не нужны инвестиции</h4>
+                            <p class="phones__subtitles-txt">Вместо 2 млн. руб. на свою разработку с нуля.</p>
+                        </div>
+                        <div class="phone__subtitles">
+                            <h4 class="phones__subtitles-title">Легкий вход</h4>
+                            <p class="phones__subtitles-txt">Очень просто начать тестировать гипотезы. Работает? Ок.</p>
+                        </div>
+                        <div class="phone__subtitles">
+                            <h4 class="phones__subtitles-title">Поддежка и обновления</h4>
+                            <p class="phones__subtitles-txt">Поддержка и обновления входят в цену.</p>
+                        </div>
+                    </div>
+                    <img src="image/card-2.jpg" alt="" class="phone__image">
+                    <div class="phones__desc2">
+                        <div class="phone__subtitles2">
+                            <h4 class="phones__subtitles-title">Не нужно ждать</h4>
+                            <p class="phones__subtitles-txt">В то время как на собственную разработку может уйти до полугода</p>
+                        </div>
+                        <div class="phone__subtitles2">
+                            <h4 class="phones__subtitles-title">Легкий выход</h4>
+                            <p class="phones__subtitles-txt">Проект не полетел? Просто отключаете подписку.</p>
+                        </div>
+                        <div class="phone__subtitles2">
+                            <h4 class="phones__subtitles-title">Экспертиза в разработке</h4>
+                            <p class="phones__subtitles-txt">Мы постоянно развиваем сервис. И добавляем новые полезные функции.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="images" id="images">
+            <div class="container">
+                <h3 class="images__title">Рассмотрите ближе</h3>
+                <p class="images__txt">Посмотрите на экраны приложения и все станет понятно.</p>
+                <div class="swiper">
+                    <!-- Additional required wrapper -->
+                    <div class="swiper-wrapper">
+                      <!-- Slides -->
+                      <div class="swiper-slide">
+                        <img src="image/swiper1.jpg" alt="">
+                      </div>
+                      <div class="swiper-slide">
+                        <img src="image/swiper2.jpg" alt="">
+                      </div>
+                      <div class="swiper-slide">
+                        <img src="image/swiper3.jpg" alt="">
+                      </div>
+                      <div class="swiper-slide">
+                        <img src="image/swiper4.jpg" alt="">
+                      </div>
+                      <div class="swiper-slide">
+                        <img src="image/swiper5.jpg" alt="">
+                      </div>
+                      <div class="swiper-slide">
+                        <img src="image/swiper6.jpg" alt="">
+                      </div>
+                      <div class="swiper-slide">
+                        <img src="image/swiper7.jpg" alt="">
+                      </div>
+                    </div>
+                    <!-- If we need navigation buttons -->
+                    <div class="swiper-button-prev"></div>
+                    <div class="swiper-button-next"></div>
+                </div>
+            </div>
+        </section>
+        <section class="plan" id="plan">
+            <div class="container">
+                <h3 class="plan__title">Тариф</h3>
+                <div class="plan__card">
+                    <h3 class="plan__card-title">Разработка мобильного приложения</h3>
+                    <p class="plan__card-txt">Мы создаем инновационные мобильные приложения для iOS и Android. Наша команда разработчиков реализует ваши идеи от начального проектирования до запуска и поддержки.</p>
+                    <span class="plan__card-price">90 тыс.р.</span>
+                    <button onclick="openModal()" class="plan__card-link">Подключиться</button>
+                </div>
+            </div>
+        </section>
+        <section class="contact">
+            <div class="container">
+                <h3 class="contact__title">Контакты</h3>
+                <a href="" class="contact__link">+7 831 420 61 60</a> <br>
+                <a href="" class="contact__link">hello@deliverplus.ru</a>
+                <p class="contact__address">Нижний Новгород, Родионова, 167б</p>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <a href="" class="footer__logo">
+                <img src="image/logo.png" alt="Логотип" class="footer__logo-image">
+            </a>
+            <div class="footer__content">
+                <div class="column">
+                    <h3 class="footer__content-title">Продукты</h3>
+                    <ul class="footer__list">
+                        <li class="footer__item">Мобильное приложение</li>
+                    </ul>
+                </div>
+                <div class="column">
+                    <h3 class="footer__content-title">Возможности</h3>
+                    <ul class="footer__list">
+                        <li  class="footer__item">Измерение качества сервиса</li>
+                    </ul>
+                </div>
+                <div class="column">
+                    <h3 class="footer__content-title">Помощь</h3>
+                    <ul class="footer__list">
+                        <li class="footer__item">
+                            <a href="#images" class="footer__link">Посмотреть скриншоты</a>
+                        </li>
+                        <li class="footer__item">
+                            <a href="#use" class="footer__link">Как работает</a>
+                        </li>
+                        <li class="footer__item">
+                            <a href="#phone" class="footer__link"> Преимущества</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="column">
+                    <h3 class="footer__content-title">Дополнительно</h3>
+                    <ul class="footer__list">
+                        <li class="footer__item">Обработка персональных данных</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <p>© 2015-2022 ООО "КС Тех", Все права защищены</p>
+    </footer>
+
+    <div id="myModal" class="modal">
+        <div class="modal-content">
+            <span class="close" onclick="closeModal()">&times;</span>
+            <h2>Введите данные</h2>
+            <form id="myForm">
+                <input type="email" id="gmail" name="gmail" placeholder="Введите ваш Gmail" required>
+                <input type="text" id="name" name="name" placeholder="Введите ваше имя" required>
+                <input type="number" id="phone" name="phone" placeholder="+ 7 111 111 11 11" required>
+                <input type="submit" value="Отправить">
+            </form>
+            <span class="modal__txt">Нажимая на кнопку, вы даете согласие на <a href="about.html">обработку персональных данных</a>.</span>
+        </div>
+    </div>
+    
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>

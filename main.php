@@ -7,7 +7,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     // Дополнительная обработка данных, если нужно
     
     // Отправка данных на почту
-    $to = "menu-store.2022@yandex.ru";
+    $to = "mukhtarovbilol@gmail.com";
     $subject = "Новая заявка от $name";
     $message = "Email: $gmail\nИмя: $name\nТелефон: $phone";
     $headers = "From: $gmail";
